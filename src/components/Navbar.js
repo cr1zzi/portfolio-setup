@@ -2,11 +2,11 @@ import React from "react";
 import logo from "../logo.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretSquareDown } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light nav-color">
       <div className="container">
         <a className="navbar-brand" href="#">
           <a href={"#"}>
@@ -22,10 +22,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <FontAwesomeIcon
-            icon={faCaretSquareDown}
-            style={{ color: "white" }}
-          />
+          <FontAwesomeIcon icon={faBars} style={{ color: "white" }} />
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">

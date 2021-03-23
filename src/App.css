@@ -1,6 +1,19 @@
 /* NAVBAR */
 .logo {
-  width: 12.25rem;
+  width: 10rem;
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 8rem;
+  }
+}
+
+nav {
+  z-index: 2;
+}
+
+.nav-color {
+  background-color: rgb(0, 0, 0) !important;
 }
 
 /* menu buttons*/
@@ -15,22 +28,175 @@ nav ul li {
 }
 
 .navbar-nav > li > a {
+  letter-spacing: 3px;
   margin-right: 12px;
   margin-left: 15px;
-  color: antiquewhite !important;
+  color: #fdfffc !important;
   border-top: 0.18rem solid rgba(255, 255, 255, 0);
 }
 
 .navbar-brand {
-  max-width: 17.25rem;
+  max-width: 15rem;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 5rem !important;
 }
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
-  border-top: 0.18rem solid peru;
+  border-top: 0.18rem solid #e59500;
 }
 .navbar-nav > li > a:hover {
-  border-top: 0.18rem solid peru;
+  border-top: 0.18rem solid #e59500;
+}
+
+/* header */
+
+.header-wraper {
+  position: relative;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.main-info {
+  letter-spacing: 3px;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-info h1 {
+  @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap");
+  font-family: "Libre Franklin", sans-serif;
+  text-transform: uppercase;
+  color: #e59500;
+  font-weight: 400;
+  font-size: 3.2rem !important;
+}
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 2rem !important;
+  }
+}
+
+/* typed text*/
+
+.typed-text {
+  font-size: 2rem;
+  color: #fdfffc;
+}
+
+/* button main*/
+.btn-main-offer {
+  z-index: 9999999;
+  cursor: pointer;
+  border: 1px solid #fdfffc;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px 15px 15px 10px;
+  color: #fdfffc;
+  margin-top: 2rem;
+  border-radius: 4px;
+  letter-spacing: 2px;
+}
+.btn-main-offer:hover {
+  transition: 0.2s;
+  text-decoration: none;
+  color: #e59500;
+  background-color: #fdfffc;
+}
+
+/* particles*/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+}
+
+/* About page*/
+
+.about-wraper {
+  position: relative;
+  background: url(about-image.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+}
+.color-wraper {
+  position: absolute;
+  background-color: #e59500;
+  width: 50%;
+  height: 85vh;
+  background-size: cover;
+  background-position: left;
+  z-index: 1;
+}
+
+/* About info*/
+.about-info p {
+  position: absolute;
+  font-size: 2em;
+  width: 90%;
+  top: 30%;
+  left: 5%;
+  color: #141414;
+}
+@media (max-width: 768px) {
+  .about-info p {
+    font-size: 1.5em;
+    top: 10%;
+  }
+}
+
+/* about button*/
+.about-button {
+  position: absolute;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #141414;
+  border-radius: 0;
+  padding: 10px 15px 15px 10px;
+  color: #fdfffc;
+  margin-top: 2rem;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  top: 65%;
+  left: 5%;
+}
+
+.about-button:hover {
+  transition: 0.2s;
+  text-decoration: none;
+  color: #141414;
+  background-color: #fdfffc;
+}
+/* big icons*/
+.icon-wraper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 15vh;
+  background-color: #f0f0f0;
+}
+
+.css-icon {
+  color: #e34f26;
 }
