@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap");
 /* NAVBAR */
 .logo {
   width: 10rem;
@@ -47,6 +49,7 @@ nav ul li {
 }
 .navbar-nav > li > a:hover {
   border-top: 0.18rem solid #e59500;
+  transition: 0.3s;
 }
 
 /* header */
@@ -72,7 +75,6 @@ nav ul li {
   text-align: center;
 }
 .main-info h1 {
-  @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap");
   font-family: "Libre Franklin", sans-serif;
   text-transform: uppercase;
   color: #e59500;
@@ -127,113 +129,92 @@ nav ul li {
 }
 
 /* About page*/
-
-.color-wraper {
+.about-page {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #e59500;
-  width: 100%;
-
-  height: 100vh;
-  background-size: cover;
 }
 
-/* About info*/
-.about-info p {
-  font-size: 2.5em;
-  /* width: 63%; */
-  top: 15%;
-  left: 5%;
-  color: #141414;
+.about-title {
+  color: #211a1e;
 }
-@media (max-width: 768px) {
-  .about-info p {
-    width: 95%;
-    font-size: 2em;
-    top: 5%;
+@media (max-width: 600px) {
+  .about-title {
+    font-size: 2.5rem !important;
   }
 }
-@media (max-width: 768px) {
-  .about-button {
-    transform: translateX(-50%);
-    left: 50%;
-    place-items: center;
-    position: absolute;
+@media (max-width: 576px) {
+  .about-title {
+    font-size: 1.9rem !important;
   }
 }
 
-.about-main {
-  padding-top: 20%;
+.about-info {
+  font-family: "Raleway", sans-serif;
+  color: #211a1e;
+  font-size: 1.3em;
 }
-
-@media (max-width: 768px) {
-  .about-main {
-    padding-top: 15%;
+.about-info-work {
+  color: #211a1e;
+  font-size: 2em;
+  font-weight: 400;
+}
+@media (max-width: 576px) {
+  .about-info-work {
+    font-size: 1.6em;
   }
 }
-
-.me-image {
-  width: 400px;
-}
-
-@media (max-width: 768px) {
-  .me-image {
-    width: 280px;
-    transform: translateX(-50%);
-    left: 50%;
-    place-items: center;
-    position: absolute;
-  }
-}
-@media (max-width: 1000px) {
-  .me-image {
-    width: 280px;
-    height: auto;
-    transform: translateX(-50%);
-    left: 50%;
-    place-items: center;
-    position: absolute;
-  }
-}
-
-/* about button*/
 .about-button {
-  cursor: pointer;
-  text-transform: uppercase;
-  background-color: #141414;
-  border-radius: 0;
-  padding: 10px 15px 15px 10px;
-  color: #fdfffc;
-  border-radius: 4px;
-  letter-spacing: 2px;
+  background-color: #211a1e !important;
+  color: #e59500 !important;
 }
-
 .about-button:hover {
-  transition: 0.2s;
-  text-decoration: none;
-  color: #141414;
-  background-color: #fdfffc;
+  background-color: #fdfffc !important;
+  color: #211a1e !important;
+  transition: 0.3s;
+}
+@media (max-width: 576px) {
+  .about-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .center-about-button {
+    text-align: center;
+  }
 }
 
-@media (max-width: 768px) {
-  .about-button {
-    transform: translateX(-50%);
-    left: 50%;
-    place-items: center;
-    position: absolute;
+.me-img {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 576px) {
+  .me-img {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .me-img {
+    width: 55%;
   }
 }
 
 /* big icons*/
 .icon-wraper {
-  /* display: flex; */
-  /* justify-content: space-around; */
-  /* align-items: center; */
   top: 0;
   bottom: 0;
   position: relative;
   background-size: cover;
   background-position: center;
-  height: 15vh;
-  background-color: #f0f0f0;
+}
+
+@media (max-width: 576px) {
+  .big-icons-text {
+    font-size: 2.8em !important;
+  }
 }
 
 /* Projects page*/
@@ -241,16 +222,17 @@ nav ul li {
   position: relative;
   background-size: cover;
   background-position: center;
-  height: 85vh;
+}
+.projects-container {
+  margin-top: 0;
+  z-index: -1;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
-.project-component {
-  background-color: red;
-  height: 45vh;
-}
-.project-text {
-  justify-content: center;
-  text-align: center;
-  top: 0;
-  bottom: 0;
+@media (max-width: 768px) {
+  .projects-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 }

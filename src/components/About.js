@@ -1,26 +1,41 @@
 import React from "react";
-import me from "../components/me.png";
+import me from "../components/me.jpg";
 
 const About = () => {
   return (
-    <div className="container-fluid padding color-wraper ">
-      <div className="row padding about-info about-main ">
-        <div className="col-lg-8">
-          <p>
-            Hey there <br /> I'm Cojocariu Cristian , a self-taught frontend web
-            developer and web designer and I'm here to give you all of my best.
+    <div className="container-fluid padding about-page">
+      <div className="row padding">
+        <div className="col-md-12 col-lg-6">
+          <h1 className=" display-4 about-title text-center ">
+            {"<"}SomethingAboutMe{"/>"}
+          </h1>
+          <hr />
+          <p className="about-info container-fluid">
+            I'm Cojocariu Cristian , a Frond End Developer from Romania /
+            Timisoara . I am always eager to learn new things that makes me a
+            better developer
+            {" ("}and a better person , why not? {")"} .
+          </p>
+          <p className="about-info container-fluid">
+            Currently I'm focused on improving my UX/UI skills and to handle
+            ReactJS better as I can. On near future I'll going deep to
+            understand the Back End Development concepts .
+          </p>
+          <p className="about-info container-fluid">
+            On my free time I enjoying hanging out with my girlfriend or with my
+            friends , training at gym or playing some video games.
+          </p>
+          <p className="about-info-work container-fluid">
             Here are some of my work
           </p>
-          <a href="" className="about-button">
-            Check this out
-          </a>
+          <div className="container-fluid center-about-button">
+            <button type="button" className="btn btn-lg about-button">
+              Check it out
+            </button>
+          </div>
         </div>
-        <div className="col-lg-4">
-          <img
-            src={me}
-            alt="photo"
-            className="me-image img-fluid rounded-circle about-main"
-          />
+        <div className="col-md-12 col-lg-6 my-auto ">
+          <img src={me} alt="" className="img-fluid rounded-circle me-img" />
         </div>
       </div>
     </div>

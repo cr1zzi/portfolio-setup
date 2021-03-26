@@ -34,9 +34,8 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      <Projects />
-
       <BigIcons />
+      <Projects />
     </div>
   );
 }

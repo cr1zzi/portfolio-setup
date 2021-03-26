@@ -1,19 +1,43 @@
 import React from "react";
+import projectsImage from "../components/projects-image.jpg";
 
 const Projects = () => {
   return (
-    <div className="container projects-wraper">
-      <div className="row project-component ">
-        <div className="col-4 project-text">comming soon</div>
-        <div className="col-4 project-text">comming soon</div>
-        <div className="col-4 project-text">comming soon</div>
+    <div
+      id="carouselExampleControls"
+      className="carousel slide container-fluid"
+      data-ride="carousel"
+    >
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img src={projectsImage} alt="" className="d-block w-100" />
+        </div>
+        <div className="carousel-item ">
+          <img src={projectsImage} alt="" className="d-block w-100" />
+        </div>
+        <div className="carousel-item">
+          <img src={projectsImage} alt="" className="d-block w-100" />
+        </div>
       </div>
-
-      <div className="row project-component ">
-        <div className="col-4 project-text">comming soon</div>
-        <div className="col-4 project-text">comming soon</div>
-        <div className="col-4 project-text">comming soon</div>
-      </div>
+      <a
+        className="carousel-control-prev"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="prev"
+      >
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="sr-only">Previous</span>
+      </a>
+      <a
+        className="carousel-control-next"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="next"
+      >
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="sr-only">Next</span>
+      </a>
+      <br />
     </div>
   );
 };
