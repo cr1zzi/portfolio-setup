@@ -3,40 +3,65 @@ import projectsImage from "../components/projects-image.jpg";
 
 const Projects = () => {
   return (
-    <div
-      id="carouselExampleControls"
-      className="carousel slide container-fluid"
-      data-ride="carousel"
-    >
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src={projectsImage} alt="" className="d-block w-100" />
+    <div className="container-fluid padding">
+      <div className="row text-center welcome ">
+        <div className="col-12">
+          <h1 className="display-4">Projects</h1>
+          <hr />
+          <br />
         </div>
-        <div className="carousel-item ">
-          <img src={projectsImage} alt="" className="d-block w-100" />
-        </div>
-        <div className="carousel-item">
-          <img src={projectsImage} alt="" className="d-block w-100" />
+        <div className="container-fluid padding">
+          <div className="row padding">
+            <div className="col-md-4">
+              <div className="card">
+                <img src={projectsImage} alt="" className="card-img-top" />
+                <div className="card-body">
+                  <h4 className="card-title"> Title1</h4>
+                  <p className="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corporis, explicabo!
+                  </p>
+                  <a href="#" className="btn btn-outline-secondary">
+                    see more
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="card">
+                <img src={projectsImage} alt="" className="card-img-top" />
+                <div className="card-body">
+                  <h4 className="card-title"> Title1</h4>
+                  <p className="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corporis, explicabo!
+                  </p>
+                  <a href="#" className="btn btn-outline-secondary">
+                    see more
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div className="card">
+                <img src={projectsImage} alt="" className="card-img-top" />
+                <div className="card-body">
+                  <h4 className="card-title"> Title1</h4>
+                  <p className="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corporis, explicabo!
+                  </p>
+                  <a href="#" className="btn btn-outline-secondary">
+                    see more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <a
-        className="carousel-control-prev"
-        href="#carouselExampleControls"
-        role="button"
-        data-slide="prev"
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="sr-only">Previous</span>
-      </a>
-      <a
-        className="carousel-control-next"
-        href="#carouselExampleControls"
-        role="button"
-        data-slide="next"
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="sr-only">Next</span>
-      </a>
       <br />
     </div>
   );
