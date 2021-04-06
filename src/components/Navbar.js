@@ -1,12 +1,13 @@
 import React from "react";
 import logo from "../logo.png";
+import { Link } from "react-scroll";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light nav-color">
+    <nav className="navbar navbar-expand-lg navbar-light nav-color sticky-top ">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <a href={"#"}>
@@ -34,17 +35,44 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                About
+                <Link
+                  activeClass="active"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
+                  About
+                </Link>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Projects
+                <Link
+                  activeClass="active"
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
+                  Projects
+                </Link>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Contact
+                <Link
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+                >
+                  Contact
+                </Link>
               </a>
             </li>
           </ul>

@@ -1,9 +1,11 @@
 import React from "react";
+import { Link } from "react-scroll";
+
 import me from "../components/me.jpg";
 
 const About = () => {
   return (
-    <div className="container-fluid padding about-page">
+    <div className="container-fluid padding about-page" id="about">
       <div className="row padding">
         <div className="col-md-12 col-lg-6">
           <h1 className=" display-4 about-title text-center ">
@@ -30,7 +32,16 @@ const About = () => {
           </p>
           <div className="container-fluid center-about-button">
             <button type="button" className="btn btn-lg about-button">
-              Check it out
+              <Link
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                Check it out
+              </Link>
             </button>
           </div>
         </div>
