@@ -236,3 +236,19 @@ nav ul li {
     padding-bottom: 15px;
   }
 }
+
+/* Contact page */
+
+.contact-page {
+  background-color: #211a1e;
+  color: #fdfffc;
+}
+
+.contact-info {
+  font-size: 1.3em;
+}
+
+.contact-icons {
+  margin-top: 15px;
+  margin-right: 25px;
+}

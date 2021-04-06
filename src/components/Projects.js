@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="row text-center welcome ">
         <div className="col-12">
           <h1 className="display-4">Projects</h1>
-          <hr />
+          <hr  />
           <br />
         </div>
         <div className="container-fluid padding">
