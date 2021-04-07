@@ -53,21 +53,21 @@ const Contact = () => {
             <hr className="lead" />
             <div className="container-fluid padding ">
               <div className="row text-center padding">
-                <a href="#">
+                <a href="https://www.facebook.com/crizi.crizy">
                   <FontAwesomeIcon
                     icon={faFacebookSquare}
                     style={{ color: "#3b5998" }}
                     className=" fa-4x contact-icons "
                   />
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/cristi.koaj/">
                   <FontAwesomeIcon
                     icon={faInstagramSquare}
                     style={{ color: "#e1306c" }}
                     className=" fa-4x contact-icons "
                   />
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/cr1zzi">
                   <FontAwesomeIcon
                     icon={faTwitterSquare}
                     style={{ color: "#1da1f2" }}

@@ -257,3 +257,7 @@ nav ul li {
   margin-top: 15px;
   margin-right: 25px;
 }
+.contact-icons:hover {
+  color: #fdfffc !important;
+  transition: 0.5s;
+}
