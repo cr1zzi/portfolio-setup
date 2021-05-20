@@ -9,7 +9,7 @@ const About = () => {
       <div className="row padding">
         <div className="col-md-12 col-lg-6">
           <h1 className=" display-4 about-title text-center ">
-            {"<"}SomethingAboutMe{"/>"}
+            {"<"}SomethingAboutMe {"/>"}
           </h1>
           <hr />
           <p className="about-info container-fluid">

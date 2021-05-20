@@ -7,14 +7,6 @@ import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
 import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 import { faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
 
-import * as Yup from "yup";
-
-const schema = Yup.object({
-  name: Yup.string().required("Name required"),
-  email: Yup.string().email("Invalid email format").required("Email required"),
-  message: Yup.string().min(10).max(100).required("Enter your message"),
-});
-
 function sendEmail(e) {
   e.preventDefault();
   emailjs
