@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-import me from "../components/me.jpg";
+import me from "../images/me.jpg";
 
 const About = () => {
   return (

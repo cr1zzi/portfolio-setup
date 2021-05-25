@@ -16,7 +16,7 @@ const Header = () => {
           backSpeed={80}
           loop
         />
-        <a href="#" className="btn-main-offer">
+        <a href="/#" className="btn-main-offer">
           <Link
             activeClass="active"
             to="contact"

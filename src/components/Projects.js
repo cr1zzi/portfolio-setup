@@ -1,5 +1,8 @@
 import React from "react";
-import projectsImage from "../components/busy-bee-display.jpg";
+import projectsImage from "./projects-images/projects-image.jpg";
+import bussybee from "./projects-images/bussy-bee.jpg";
+import cryptoapp from "./projects-images/crypto-app.jpg";
+import portfolioApp from "./projects-images/portfolio-app.jpg";
 
 const Projects = () => {
   return (
@@ -13,17 +16,23 @@ const Projects = () => {
         <div className="container-fluid padding">
           <div className="row padding">
             {/* project one */}
-            <div className="col-md-4">
+            <div className="col-md-4 project-card">
               <div className="card">
-                <img src={projectsImage} alt="" className="card-img-top" />
+                <img src={bussybee} alt="" className="card-img-top zoom" />
                 <div className="card-body">
-                  <h4 className="card-title"> Busy Bee</h4>
+                  <h4 className="card-title"> Bussy Bee</h4>
                   <p className="card-text">
-                    I worked at this project as a freelancer . It's for a bakery
-                    business in London / UK.
+                    I work at this project as a freelancer for a bakery business
+                    in London / UK. It's still in working. <br /> Technologies :
+                    Bootstrap / GSAP
                   </p>
-                  <a href="#" className="btn btn-outline-secondary">
-                    See the project
+                  <a
+                    href="https://github.com/cr1zzi/ildi-cake"
+                    className="btn btn-outline-secondary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github Link
                   </a>
                 </div>
               </div>
@@ -31,16 +40,23 @@ const Projects = () => {
             {/* end of the project one */}
 
             {/* project two */}
-            <div className="col-md-4">
+            <div className="col-md-4 project-card">
               <div className="card">
-                <img src={projectsImage} alt="" className="card-img-top" />
+                <img src={cryptoapp} alt="" className="card-img-top zoom" />
                 <div className="card-body">
-                  <h4 className="card-title"> Cooming soon</h4>
+                  <h4 className="card-title"> Crypto currency app</h4>
                   <p className="card-text">
-                    This project is under construction.
+                    A project where you can see cryptocurrencies informations.{" "}
+                    <br />
+                    It's made in ReactJS{" "}
                   </p>
-                  <a href="#" className="btn btn-outline-secondary">
-                    Nothin to see right now
+                  <a
+                    href="https://github.com/cr1zzi/crypto-app"
+                    className="btn btn-outline-secondary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github Link
                   </a>
                 </div>
               </div>
@@ -48,16 +64,22 @@ const Projects = () => {
             {/* end of the project two */}
 
             {/* project three */}
-            <div className="col-md-4">
+            <div className="col-md-4 project-card">
               <div className="card">
-                <img src={projectsImage} alt="" className="card-img-top" />
+                <img src={portfolioApp} alt="" className="card-img-top zoom" />
                 <div className="card-body">
-                  <h4 className="card-title"> Cooming soon</h4>
+                  <h4 className="card-title">This portfolio project</h4>
                   <p className="card-text">
-                    This project is under construction.
+                    This project it's made for introduce me and to show some of
+                    my projects. <br /> It's made in ReactJS with Bootstrap.
                   </p>
-                  <a href="#" className="btn btn-outline-secondary">
-                    Nothin to see right now
+                  <a
+                    href="https://github.com/cr1zzi/portfolio-setup"
+                    className="btn btn-outline-secondary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github Link
                   </a>
                 </div>
               </div>
@@ -65,47 +87,49 @@ const Projects = () => {
             {/* end of the project three */}
 
             {/* project four */}
-            <div className="col-md-4">
+            <div className="col-md-4 project-card">
               <div className="card">
-                <img src={projectsImage} alt="" className="card-img-top" />
+                <img src={projectsImage} alt="" className="card-img-top zoom" />
                 <div className="card-body">
                   <h4 className="card-title"> Cooming soon</h4>
                   <p className="card-text">
                     This project is under construction.
                   </p>
-                  <a href="#" className="btn btn-outline-secondary">
+                  <a href="/#" className="btn btn-outline-secondary">
                     Nothin to see right now
                   </a>
                 </div>
               </div>
             </div>
             {/* end of the project four */}
+
             {/* project five */}
-            <div className="col-md-4">
+            <div className="col-md-4 project-card">
               <div className="card">
-                <img src={projectsImage} alt="" className="card-img-top" />
+                <img src={projectsImage} alt="" className="card-img-top zoom" />
                 <div className="card-body">
                   <h4 className="card-title"> Cooming soon</h4>
                   <p className="card-text">
                     This project is under construction.
                   </p>
-                  <a href="#" className="btn btn-outline-secondary">
+                  <a href="/#" className="btn btn-outline-secondary">
                     Nothin to see right now
                   </a>
                 </div>
               </div>
             </div>
             {/* end of the project five */}
+
             {/*  project six */}
-            <div className="col-md-4">
+            <div className="col-md-4 project-card">
               <div className="card">
-                <img src={projectsImage} alt="" className="card-img-top" />
+                <img src={projectsImage} alt="" className="card-img-top zoom" />
                 <div className="card-body">
                   <h4 className="card-title"> Cooming soon</h4>
                   <p className="card-text">
                     This project is under construction.
                   </p>
-                  <a href="#" className="btn btn-outline-secondary">
+                  <a href="/#" className="btn btn-outline-secondary">
                     Nothin to see right now
                   </a>
                 </div>

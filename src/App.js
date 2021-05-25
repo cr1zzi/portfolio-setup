@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div className="full-app">
+      {/* main background particles */}
       <Particles
         className="particles-canvas"
         params={{
@@ -32,6 +33,7 @@ function App() {
           },
         }}
       />
+      {/* end of main background particles */}
       <Navbar />
       <Header />
       <About />
