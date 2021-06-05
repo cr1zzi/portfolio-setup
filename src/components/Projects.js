@@ -3,6 +3,7 @@ import projectsImage from "./projects-images/projects-image.jpg";
 import bussybee from "./projects-images/bussy-bee.jpg";
 import cryptoapp from "./projects-images/crypto-app.jpg";
 import portfolioApp from "./projects-images/portfolio-app.jpg";
+import galleryApp from "./projects-images/gallery-app.jpg";
 
 const Projects = () => {
   return (
@@ -89,14 +90,20 @@ const Projects = () => {
             {/* project four */}
             <div className="col-md-4 project-card">
               <div className="card">
-                <img src={projectsImage} alt="" className="card-img-top zoom" />
+                <img src={galleryApp} alt="" className="card-img-top zoom" />
                 <div className="card-body">
-                  <h4 className="card-title"> Cooming soon</h4>
+                  <h4 className="card-title"> A gallery app</h4>
                   <p className="card-text">
-                    This project is under construction.
+                    A simple gallery app that extract data with axios and it's
+                    designed with tailwind.
                   </p>
-                  <a href="/#" className="btn btn-outline-secondary">
-                    Nothin to see right now
+                  <a
+                    href="https://github.com/cr1zzi/react-image-gallery"
+                    className="btn btn-outline-secondary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Github Link
                   </a>
                 </div>
               </div>
@@ -112,7 +119,12 @@ const Projects = () => {
                   <p className="card-text">
                     This project is under construction.
                   </p>
-                  <a href="/#" className="btn btn-outline-secondary">
+                  <a
+                    href="/#"
+                    className="btn btn-outline-secondary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Nothin to see right now
                   </a>
                 </div>
@@ -129,7 +141,12 @@ const Projects = () => {
                   <p className="card-text">
                     This project is under construction.
                   </p>
-                  <a href="/#" className="btn btn-outline-secondary">
+                  <a
+                    href="/#"
+                    className="btn btn-outline-secondary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Nothin to see right now
                   </a>
                 </div>
