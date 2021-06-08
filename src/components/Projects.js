@@ -94,7 +94,7 @@ const Projects = () => {
                 <div className="card-body">
                   <h4 className="card-title"> A gallery app</h4>
                   <p className="card-text">
-                    A simple gallery app that extract data with axios and it's
+                    A simple gallery app that fetch data with axios and it's
                     designed with tailwind.
                   </p>
                   <a

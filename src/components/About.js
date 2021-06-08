@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="container-fluid padding about-page" id="about">
       <div className="row padding">
-        <div className="col-md-12 col-lg-6">
+        <div className="col-md-12 col-lg-6 about-container">
           <h1 className=" display-4 about-title text-center ">
             {"<"}SomethingAboutMe {"/>"}
           </h1>

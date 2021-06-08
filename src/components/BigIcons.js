@@ -18,22 +18,22 @@ const BigIcons = () => {
         <FontAwesomeIcon
           icon={faJsSquare}
           style={{ color: "#f7df1e" }}
-          className="js-icon fa-7x col-3 col-sm-3 col-md-3 col-lg-3"
+          className="js-icon fa-7x col-3 col-sm-3 col-md-3 col-lg-3 "
         />
         <FontAwesomeIcon
           icon={faBootstrap}
           style={{ color: "#602C50" }}
-          className="bs-icon fa-7x col-3 col-sm-3 col-md-3 col-lg-3"
+          className="bs-icon fa-7x col-3 col-sm-3 col-md-3 col-lg-3 "
         />
         <FontAwesomeIcon
           icon={faNode}
           style={{ color: "#6cc24a" }}
-          className="nj-icon fa-7x col-3 col-sm-3 col-md-3 col-lg-3"
+          className="nj-icon fa-7x col-3 col-sm-3 col-md-3 col-lg-3 "
         />
         <FontAwesomeIcon
           icon={faGitAlt}
           style={{ color: "#e24329" }}
-          className="git-icon fa-7x col-3 col-sm-3 col-md-3 col-lg-3"
+          className="git-icon fa-7x col-3 col-sm-3 col-md-3 col-lg-3 "
         />
       </div>
       <br />

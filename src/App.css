@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap");
+ */
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap");
 
 .full-app {
@@ -80,15 +82,21 @@ nav ul li {
   text-align: center;
 }
 .main-info h1 {
-  font-family: "Libre Franklin", sans-serif;
-  text-transform: uppercase;
+  /* font-family: "Libre Franklin", sans-serif; */
+  font-family: "Righteous", cursive;
+  /* text-transform: uppercase; */
   color: #e59500;
   font-weight: 400;
-  font-size: 3.8rem !important;
+  font-size: 4.5rem !important;
 }
 @media (max-width: 768px) {
   .main-info h1 {
-    font-size: 2rem !important;
+    font-size: 2.8rem !important;
+  }
+}
+@media (max-width: 992px) {
+  .main-info h1 {
+    font-size: 3.2rem !important;
   }
 }
 
@@ -141,6 +149,13 @@ nav ul li {
   background-color: #e59500;
 }
 
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-title {
   color: #211a1e;
 }
@@ -170,6 +185,7 @@ nav ul li {
     font-size: 1.6em;
   }
 }
+
 .about-button {
   background-color: #211a1e !important;
   color: #e59500 !important;
@@ -196,6 +212,7 @@ nav ul li {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 576px) {
@@ -203,12 +220,26 @@ nav ul li {
     display: none;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 768px) {
+  .me-img {
+    width: 50%;
+  }
+}
+@media (max-width: 992px) {
   .me-img {
     width: 55%;
   }
 }
-
+@media (max-width: 1200px) {
+  .me-img {
+    width: 70%;
+  }
+}
+@media (max-width: 1920px) {
+  .me-img {
+    width: 80%;
+  }
+}
 /* big icons*/
 .icon-wraper {
   top: 0;
@@ -218,7 +249,7 @@ nav ul li {
   background-position: center;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575.98px) {
   .big-icons-text {
     font-size: 2.8em !important;
   }
@@ -235,6 +266,9 @@ nav ul li {
   z-index: -1;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+.card {
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .project-card {
