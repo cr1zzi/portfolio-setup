@@ -29,15 +29,15 @@ const Projects = () => {
                   </p>
                   <a
                     href="https://github.com/cr1zzi/ildi-cake"
-                    className="btn btn-outline-secondary mr-1"
+                    className="btn btn-outline-secondary mr-2"
                     target="_blank"
                     rel="noreferrer"
                   >
                     Github Link
                   </a>
                   <a
-                    href="https://crypto-app-react.netlify.app"
-                    className="btn btn-outline-secondary ml-1"
+                    href="https://bussy-bee-ildy.netlify.app"
+                    className="btn btn-outline-secondary ml-2"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -61,11 +61,19 @@ const Projects = () => {
                   </p>
                   <a
                     href="https://github.com/cr1zzi/crypto-app"
-                    className="btn btn-outline-secondary"
+                    className="btn btn-outline-secondary mr-2"
                     target="_blank"
                     rel="noreferrer"
                   >
                     Github Link
+                  </a>
+                  <a
+                    href="https://crypto-app-react.netlify.app"
+                    className="btn btn-outline-secondary ml-2"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Link to page
                   </a>
                 </div>
               </div>
@@ -107,11 +115,19 @@ const Projects = () => {
                   </p>
                   <a
                     href="https://github.com/cr1zzi/react-image-gallery"
-                    className="btn btn-outline-secondary"
+                    className="btn btn-outline-secondary mr-2"
                     target="_blank"
                     rel="noreferrer"
                   >
                     Github Link
+                  </a>
+                  <a
+                    href="https://gallery-react-app.netlify.app"
+                    className="btn btn-outline-secondary ml-2"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Link to page
                   </a>
                 </div>
               </div>
