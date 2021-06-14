@@ -35,6 +35,14 @@ const Projects = () => {
                   >
                     Github Link
                   </a>
+                  <a
+                    href="crypto-app-react.netlify.app"
+                    className="btn btn-outline-secondary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Link to page
+                  </a>
                 </div>
               </div>
             </div>
