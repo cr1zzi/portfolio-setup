@@ -29,7 +29,7 @@ const Projects = () => {
                   </p>
                   <a
                     href="https://github.com/cr1zzi/ildi-cake"
-                    className="btn btn-outline-secondary"
+                    className="btn btn-outline-secondary mr-1"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -37,7 +37,7 @@ const Projects = () => {
                   </a>
                   <a
                     href="https://crypto-app-react.netlify.app"
-                    className="btn btn-outline-secondary"
+                    className="btn btn-outline-secondary ml-1"
                     target="_blank"
                     rel="noreferrer"
                   >
