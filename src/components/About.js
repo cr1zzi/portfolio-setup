@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-import me from "../images/me.jpg";
+import me from "../images/me.webp";
 
 const About = () => {
   return (

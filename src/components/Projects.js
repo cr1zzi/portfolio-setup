@@ -1,9 +1,9 @@
 import React from "react";
-import projectsImage from "./projects-images/projects-image.jpg";
-import bussybee from "./projects-images/bussy-bee.jpg";
-import cryptoapp from "./projects-images/crypto-app.jpg";
-import portfolioApp from "./projects-images/portfolio-app.jpg";
-import galleryApp from "./projects-images/gallery-app.jpg";
+import projectsImage from "./projects-images/projects-image.webp";
+import bussybee from "./projects-images/bussy-bee.webp";
+import cryptoapp from "./projects-images/crypto-app.webp";
+import portfolioApp from "./projects-images/portfolio-app.webp";
+import galleryApp from "./projects-images/gallery-app.webp";
 
 const Projects = () => {
   return (
@@ -19,7 +19,13 @@ const Projects = () => {
             {/* project one */}
             <div className="col-md-4 project-card">
               <div className="card">
-                <img src={bussybee} alt="" className="card-img-top zoom" />
+                <img
+                  src={bussybee}
+                  alt=""
+                  className="card-img-top zoom"
+                  width="auto"
+                  height="auto"
+                />
                 <div className="card-body">
                   <h4 className="card-title"> Bussy Bee</h4>
                   <p className="card-text">
@@ -51,7 +57,13 @@ const Projects = () => {
             {/* project two */}
             <div className="col-md-4 project-card">
               <div className="card">
-                <img src={cryptoapp} alt="" className="card-img-top zoom" />
+                <img
+                  src={cryptoapp}
+                  alt=""
+                  className="card-img-top zoom"
+                  width="auto"
+                  height="auto"
+                />
                 <div className="card-body">
                   <h4 className="card-title"> Crypto currency app</h4>
                   <p className="card-text">
@@ -83,7 +95,13 @@ const Projects = () => {
             {/* project three */}
             <div className="col-md-4 project-card">
               <div className="card">
-                <img src={portfolioApp} alt="" className="card-img-top zoom" />
+                <img
+                  src={portfolioApp}
+                  alt=""
+                  className="card-img-top zoom"
+                  width="auto"
+                  height="auto"
+                />
                 <div className="card-body">
                   <h4 className="card-title">This portfolio project</h4>
                   <p className="card-text">
@@ -106,7 +124,13 @@ const Projects = () => {
             {/* project four */}
             <div className="col-md-4 project-card">
               <div className="card">
-                <img src={galleryApp} alt="" className="card-img-top zoom" />
+                <img
+                  src={galleryApp}
+                  alt=""
+                  className="card-img-top zoom"
+                  width="auto"
+                  height="auto"
+                />
                 <div className="card-body">
                   <h4 className="card-title"> A gallery app</h4>
                   <p className="card-text">
@@ -137,7 +161,13 @@ const Projects = () => {
             {/* project five */}
             <div className="col-md-4 project-card">
               <div className="card">
-                <img src={projectsImage} alt="" className="card-img-top zoom" />
+                <img
+                  src={projectsImage}
+                  alt=""
+                  className="card-img-top zoom"
+                  width="auto"
+                  height="auto"
+                />
                 <div className="card-body">
                   <h4 className="card-title"> Cooming soon</h4>
                   <p className="card-text">
@@ -159,7 +189,13 @@ const Projects = () => {
             {/*  project six */}
             <div className="col-md-4 project-card">
               <div className="card">
-                <img src={projectsImage} alt="" className="card-img-top zoom" />
+                <img
+                  src={projectsImage}
+                  alt=""
+                  className="card-img-top zoom"
+                  width="auto"
+                  height="auto"
+                />
                 <div className="card-body">
                   <h4 className="card-title"> Cooming soon</h4>
                   <p className="card-text">
