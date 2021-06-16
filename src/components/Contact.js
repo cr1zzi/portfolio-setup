@@ -76,7 +76,7 @@ const Contact = () => {
                   />
                 </a>
                 <a
-                  href="https://twitter.com/cr1zzi"
+                  href="https://twitter.com/Cristi06479477"
                   target="_blank"
                   rel="noreferrer"
                 >
